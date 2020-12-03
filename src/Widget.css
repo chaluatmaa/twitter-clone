@@ -1,0 +1,29 @@
+.widget {
+  flex: 0.35 !important;
+  padding-left: 20px;
+}
+
+.widget__input {
+  display: flex;
+  align-items: center;
+  background-color: #e6ecf0;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.widget__input > input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+}
+
+.widget__input > input:focus {
+  outline: none;
+}
+
+.widget__searchIcon {
+  color: gray;
+}

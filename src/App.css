@@ -1,0 +1,27 @@
+body {
+  --twitter-color: #39a2f2;
+  --twitter-background: #8dcff7;
+}
+
+.app {
+  display: flex;
+  /* padding: 0 30px; */
+  width: 100%;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.widgets__widgetContainer {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+
+.widgets__widgetContainer > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
